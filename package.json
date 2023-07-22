@@ -1,0 +1,44 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "Утилита командной строки page-loader, которая, скачивает страницу из сети и кладет в указанную директорию (по умолчанию в директорию запуска программы).",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npx -n '--experimental-vm-modules --no-warnings' jest --colors"
+  },
+  "bin": {
+    "page-loader": "bin/index.js"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "transform": {}
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Z-Slava/backend-project-lvl3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Z-Slava/backend-project-lvl3/issues"
+  },
+  "homepage": "https://github.com/Z-Slava/backend-project-lvl3#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "axios-debug-log": "^0.8.2",
+    "cheerio": "^1.0.0-rc.5",
+    "commander": "^5.1.0",
+    "debug": "^4.3.1",
+    "listr": "^0.14.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^23.20.0",
+    "jest": "^26.6.3",
+    "nock": "^13.0.7"
+  }
+}
