@@ -99,7 +99,7 @@ describe('negative cases', () => {
   });
 
   test('load page: file system errors', async () => {
-    const rootDirPath = '/sys';
+    // const rootDirPath = '/sys';
     // await expect(pageLoader(pageUrl.toString(), rootDirPath))
     //   .rejects.toThrow(`EACCES: permission denied, mkdir '${rootDirPath}/${pageDirname}'`);
 
